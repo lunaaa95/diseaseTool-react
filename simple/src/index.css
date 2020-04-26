@@ -1,0 +1,101 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.content1 {
+    position: relative;
+    height: calc(100vh - 48px);
+    padding: 40px;
+    overflow-y: auto;
+    background-color: rgba(235,233,235,0.3);
+    /*background: linear-gradient(to right, rgba(255,228,181,0.5),rgba(248,248,255,0.5),rgba(255,228,181,0.5))*/
+}
+.content2 {
+    position: relative;
+    height: calc(100vh - 48px);
+    padding: 40px;
+    overflow-y: auto;
+    background-color: rgba(235, 233, 235);
+    /*background: linear-gradient(to right, rgba(255,228,181,0.5),rgba(248,248,255,0.5),rgba(255,228,181,0.5))*/
+}
+
+.inner_content {
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: calc(100vh - 128px);
+    overflow-y: auto;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0 40px;
+    font-size: 20px;
+    color: #333;
+}
+
+.result {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search_img {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.list_item {
+    font-size: 12px;
+    line-height: 26px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+li:hover {
+    font-size:12.5px;
+    color: cornflowerblue;
+}
+
+.icon {
+    height:26px;
+    padding: 2px;
+    line-height: 26px;
+}
+
+/*[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,*/
+/*.site-collapse-custom-collapse .site-collapse-custom-panel {*/
+/*    background: #f7f7f7;*/
+/*    border-radius: 5px;*/
+/*    overflow: hidden;*/
+/*}*/
+[data-theme='compact'] .site-collapse-custom-collapse .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+    background: #f7f7f7;
+    border-radius: 2px;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    position: relative;
+    padding: 12px 14px 12px 40px;
+    color: rgba(0,0,0,.85);
+    line-height: 14px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.my_card {
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my_Empty {
+    height: 100px;
+    margin: 50px auto;
+}
+
+#description {
+    height:5px;
+}
